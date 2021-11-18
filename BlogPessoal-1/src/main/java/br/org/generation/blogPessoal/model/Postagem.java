@@ -1,4 +1,5 @@
 package br.org.generation.blogPessoal.model;
+
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -13,6 +14,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity
 @Table(name = "tb_postagens")
 public class Postagem {
